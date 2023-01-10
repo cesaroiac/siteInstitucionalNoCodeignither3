@@ -1,0 +1,348 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+
+.bg-default{
+    background-color:#001048;
+}
+
+.bg-orange{
+    background-color:#e4792a;
+}
+
+#home{
+    margin-top:60px;
+}
+.navegation-header{
+    z-index:9999;
+    margin:auto;
+    padding:0;
+    width:100%;
+    text-align:center;
+    
+}
+
+.text-default{color: #fff;}
+.text-default:hover{color:#e4792a;border-color:#fff;}
+.text-default:visited{color:#e4792a;border-color:#fff;}
+
+.text-orange{color: #e4792a;}
+.text-blue{color: #0088c8;}
+
+/*.navbar{
+    position: fixed;
+    z-index: 2;
+}*/
+.home{
+    background-color:#001048;
+}
+.home-img{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #e4792a;
+}
+
+.btn-default{
+    text-align:center;
+    color: white;
+    border:none;
+    background-color:#001048;
+}
+.btn-default:hover{
+    color: #e4792a;
+}
+.btn-inexts{
+    margin-left: 30px;
+}
+.btn-inexts:hover{
+    background-color: #e4792a;
+    color: #001048;
+    border-color: #e4792a;
+}
+
+.texto-home{
+     text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.servicos{
+    background-color: #001048;
+    border-radius: 0;
+}
+.servicos-card{
+    background-color: #001048;
+    color: #fff;
+    border-color: #001048;
+}
+.saber-mais{
+    color: #e4792a;
+    border-color: #e4792a;
+}
+.saber-mais:hover{
+    color: #e4792a;
+    border-color: #e4792a;
+}
+
+
+.hospitaid{
+    border: none;
+}
+.hospitaid-card{
+    border: none;
+}
+
+
+.equipe{
+    background-color: #001048;
+    border-radius: 0;
+    border: 0.2px solid #001048;
+}
+.equipe-card{
+    background-color: #001048;
+    color: #000;
+    border-color: #001048;
+}
+.foto-equipe{
+    border-radius: 50%;
+    z-index: 2;
+}
+.nome-equipe{
+    margin-top: -46px;
+    margin-bottom: -50px;
+}
+.texto-equipe{
+    margin-top: 18px;
+}
+.rede_social_equipe > a{
+    text-decoration: none;
+}
+
+.about{
+    background-color: #fff;
+    border-radius: 0;
+    border: 0.2px solid #fff;
+}
+.about-card{
+    background-color: #001048;
+    color: #fff;
+    border-color: #001048;
+}
+.card-video-about{
+    border: 0.2px solid #fff;
+    background-color: #fff;
+}
+
+.duvidas{
+    background-color: #001048;
+    border-radius: 0;
+    border: 0.2px solid #001048;
+}
+.card-etapas{
+    border: 0.2px solid #001048;
+}
+
+.col-contato{
+    background-image: url(https://source.unsplash.com/random/3000x2800);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.card-video-contato{
+    border: none;
+}
+.card-img-top{
+    border:none;
+    padding:0;
+    margin:0;
+}
+
+.footer{
+    border-radius: 0;
+    border-style: none;
+}
+.footer-alto{
+    background-color: #001048;
+}
+.footer-baixo{
+    background-color: #001048;
+    border-top: 0.2px solid #02165e;
+}
+.rodape_titulo{ 
+    text-shadow: 0 0 10px #001048;
+	font-size: 20px;
+	color: white;
+	padding: 0;
+	padding-bottom: 15px;
+	padding-top: 40px;
+	font-weight: 550;
+}
+.acesso_rapido > div > *{
+    color: #fff;
+    text-decoration: none;
+}
+.acesso_rapido > div > a:hover{
+    text-decoration: underline;
+    color: #e4792a;
+}
+
+.rodape_titulo_baixo{ 
+    text-shadow: 0 0 10px #001048;
+	font-size: 14px;
+	color: white;
+	padding: 0;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+.acesso_rapido_baixo > div > *{
+    color: #fff;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.footer-card{
+    background-color: #001048;
+    border-style: none;
+}
+.footer-card > div > a{
+    text-decoration: none;
+}
+.footer-card > div > a > i{
+    font-size: 30px;
+}
+
+
+body::-webkit-scrollbar {
+    width: 8px;               
+}
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;       
+}
+body::-webkit-scrollbar-thumb {
+    background-color:#e5792a;    
+    border: 1px solid #e5792a;  
+}
+
+@media only screen and (max-width: 991px) {
+    .btn-inexts{
+        margin-left: 0px;
+    }
+    .card-video-contato > .formulario-contato{
+        width:100%;
+        margin:0;
+        padding:0;
+        top: 0;
+        position:relative;
+    }
+    
+    .card-video-contato > .formulario-contato > .col-8, 
+    .card-video-contato > .formulario-contato > .col-4{
+        width:100%;
+        margin:auto;
+        padding:0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .servico-col{
+        width: 80%;
+        padding: 0;
+        margin:0;
+    }
+    .col-md-3{
+        width:100%;
+    }
+    .card-img-top{
+        text-align:center;
+        padding:0;
+        border:0;
+        border-radius:0;
+    }
+    
+    .card-body{
+        border:none;
+        border-radius:0;
+    }
+    
+    #redes_sociais_empresa{
+        text-align:center;
+    }
+}
+
+.modal-dialog{
+    position: fixed;
+    bottom:0;
+    right:0;
+    margin-right:10px;
+    margin-bottom:10px;
+    border-radius:40px;
+    border: 1px solid red;
+    background-color: red;
+    color:white;
+    z-index: 9999;
+}
+
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#001048; 
+    z-index:999999; 
+}
+#preloader > .inner {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+.bolas > div {
+    display: inline-block;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin: 3px;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: animarBola;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.bolas > div:nth-child(1) {
+    animation-duration:0.75s ;
+    animation-delay: 0;
+}
+.bolas > div:nth-child(2) {
+    animation-duration: 0.75s ;
+    animation-delay: 0.12s;
+}
+.bolas > div:nth-child(3) {
+    animation-duration: 0.75s  ;
+    animation-delay: 0.24s;
+}
+    
+@keyframes animarBola {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    16% {
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+        opacity: 0.7;
+    }
+    33% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; 
+    } 
+} 
