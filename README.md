@@ -4,8 +4,6 @@
 
 Sistema desenvolvido com PHP, JS, JQuery e Bootstrap 5, utilizando o framework CodeIgniter (Exemplo de sistema Institucional).
 
-**Observação:** O preloader pode demorar mais do que o normal devido ao uso de imagens carregadas diretamente da web. Para resolver isso, você pode comentar a linha 17 do arquivo `index.php`, que se encontra no caminho: `application/view/index.php`.
-
 ## Índice
 
 - [Descrição](#descrição)
